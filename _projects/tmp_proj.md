@@ -2,7 +2,7 @@
 layout: page
 title: Zhang Zhenmiao
 description: with background image
-img: assets/img/12.jpg
+img: assets/img/zzm.jpg
 importance: 1
 category: former
 related_publications: true

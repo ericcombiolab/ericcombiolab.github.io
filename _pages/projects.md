@@ -1,8 +1,8 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: A growing collection of your cool projects.
+title: people
+permalink: /people/
+description: Group members.
 nav: true
 nav_order: 3
 display_categories: [work, fun]

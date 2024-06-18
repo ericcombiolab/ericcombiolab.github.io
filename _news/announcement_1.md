@@ -9,8 +9,7 @@ related_posts: false
 Pangaea got published on Nature Communication! 
 
 ---
-
-[Full text] <a href="https://www.nature.com/articles/s41467-024-49060-z"> https://www.nature.com/articles/s41467-024-49060-z</a>
+<a href="https://www.nature.com/articles/s41467-024-49060-z"> https://www.nature.com/articles/s41467-024-49060-z</a>
 
 #### Abstract
 

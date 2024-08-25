@@ -1,6 +1,6 @@
 ---
 layout: page
-title: people
+title: People
 permalink: /people/
 description: Group members.
 nav: true

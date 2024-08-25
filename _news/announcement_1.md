@@ -3,6 +3,7 @@ layout: post
 date: 2024-05-31 16:11:00-0400
 inline: false
 related_posts: false
+title: Pangaea got published on Nature Communication!
 ---
 
 Pangaea got published on Nature Communication! 

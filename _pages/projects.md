@@ -5,7 +5,7 @@ permalink: /people/
 description: Group members.
 nav: true
 nav_order: 3
-display_categories: [Current, Alumni]
+display_categories: [Postdoc, Ph.D. Student, RA, Alumni]
 horizontal: false
 ---
 

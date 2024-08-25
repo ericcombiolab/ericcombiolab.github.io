@@ -5,7 +5,7 @@ permalink: /people/
 description: Group members.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [Current, Alumni]
 horizontal: false
 ---
 

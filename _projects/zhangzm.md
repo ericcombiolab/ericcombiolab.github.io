@@ -4,7 +4,7 @@ title: Zhang Zhenmiao
 description: with background image
 img: assets/img/zzm.jpg
 importance: 1
-category: former
+category: Alumni
 related_publications: true
 ---
 

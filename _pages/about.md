@@ -14,7 +14,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Led by Dr. Eric Lu Zhang, our group is dedicated to unraveling the mysteries of biology using advanced computational methods and cutting-edge technologies.
+> Led by Dr. Eric Lu Zhang, our group is dedicated to unraveling the mysteries of biology using advanced computational methods and cutting-edge technologies.
 
 ## Research Interests
 Develop assembly algorithms and deep learning models for metagenomic sequencing data analysis

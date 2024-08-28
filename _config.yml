@@ -2,10 +2,10 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Eric Lu Zhang (张璐) # the website title (if blank, full name will be used instead)
-first_name: Eric 
-middle_name: Lu
-last_name: Zhang
+title: HKBU | EricComBio Lab # the website title (if blank, full name will be used instead)
+first_name: EricComBio Lab
+middle_name: 
+last_name: 
 email: ericcombiolab@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   The website of Eric.
@@ -179,6 +179,9 @@ collections:
   projects:
     output: false
     permalink: /projects/:path/
+  people:
+    output: false
+    permalink: /people/:path/
 
 announcements:
   enabled: true

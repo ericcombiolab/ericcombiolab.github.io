@@ -19,7 +19,6 @@ nav_order: 8
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/lab_pic/WechatIMG1490.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
-    <div >
 </div>
 <div class="caption">
   A birthday lunch for members whose birthday is between June and August!
@@ -35,13 +34,13 @@ nav_order: 8
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/lab_pic/WechatIMG1490.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
-    <div >
 </div>
 <div class="caption">
     Farewell & Birthday Party in April 2024. Wishing our first PhD graduate, Zhenmiao, all the best on his new journey at UCSD and celebrating birthdays for Zeming and Xiaofeng together! 🎉🎓🎂 
 </div>
 
 ## 2023
+<hr>
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/lab_pic/14831724833466_.pic_hd.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}

@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Lab pictures
+permalink: /labpics/
+title: Lab Pics
 description: 
 nav: true
 nav_order: 8

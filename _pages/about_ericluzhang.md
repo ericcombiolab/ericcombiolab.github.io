@@ -6,3 +6,10 @@
 **Tel** : 852-3411-5880    
 
 **Email** : ericluzhang at hkbu.edu.hk
+
+***Full CV:*** <a
+href="{{ page.profile_cv_pdf | prepend: 'assets/pdf/' | relative_url}}"
+target="_blank"
+rel="noopener noreferrer"
+class="float-right"
+> <i class="fa-solid fa-file-pdf"></i></a>

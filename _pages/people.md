@@ -2,7 +2,7 @@
 layout: page
 title: People
 permalink: /people/
-description: Group members.
+description: Our talented lab members!
 nav: true
 nav_order: 3
 display_categories: [Postdoc, Ph.D. Student, RA, Alumni]

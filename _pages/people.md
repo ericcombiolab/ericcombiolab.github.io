@@ -5,8 +5,19 @@ permalink: /people/
 description: Group members.
 nav: true
 nav_order: 3
-display_categories: [PI, Postdoc, Ph.D. Student, RA, Alumni]
+display_categories: [Postdoc, Ph.D. Student, RA, Alumni]
 horizontal: false
+
+profiles:
+  # if you want to include more than one profile, just replicate the following block
+  # and create one content file for each profile inside _pages/
+  - align: right
+    image: prof_zhang.png
+    content: about_einstein.md
+    more_info: >
+    Address: Department of Computer Science, DLB 629, Level 6, David C. Lam Building Shaw Campus, 
+            Hong Kong Baptist University Kowloon Tong, Hong Kong
+    Tel: 852-3411-5880    Email: ericluzhang at hkbu.edu.hk
 
 ---
 

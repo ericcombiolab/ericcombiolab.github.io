@@ -20,6 +20,13 @@ profile_cv_pdf: Dr_ZhangLu_C.V.pdf
   <a id="PI" href=".#PI">
     <h2 class="category">PI</h2>
   </a>
+  <a
+    href="{{ page.profile_cv_pdf | prepend: 'assets/pdf/' | relative_url}}"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="float-right"
+    ><h3>Full CV</h3<i class="fa-solid fa-file-pdf"></i
+  ></a>
   <div class="profile float-{% if page.profile_align == 'left' %}left{% else %}right{% endif %}">
     {% if page.profile_image %}
       {% assign profile_image_path = page.profile_image | prepend: 'assets/img/' %}
@@ -36,16 +43,10 @@ profile_cv_pdf: Dr_ZhangLu_C.V.pdf
     {% if page.profile_content %}
       {% capture profile_content %}{% include_relative {{ page.profile_content }} %}{% endcapture %}
       {{ profile_content | markdownify }}
-      <a
-        href="{{ page.profile_cv_pdf | prepend: 'assets/pdf/' | relative_url}}"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="float-right"
-        ><i class="fa-solid fa-file-pdf"></i
-      ></a>
     {% endif %}
 
   </div>
+  
   </div>
 
   <div class="projects">

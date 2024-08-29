@@ -19,67 +19,61 @@ profiles_more_info: >
 <!-- pages/people.md -->
 
 <div >
-    <div class="profile float-{% if page.profile_align == 'left' %}left{% else %}right{% endif %}">
-      {% if pa geprofile_image %}
-        {% assign profile_image_path = page.profile_image | prepend: 'assets/img/' %}
-        {% if page.profile_image_circular %}
-          {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-        {% else %}
-          {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
-        {% endif %}
-        {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
-        {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile_image %}
-      {% endif %}
-      {% if page.profile_more_info %}
-        <div class="more-info">{{ page.profile_more_info }}</div>
-      {% endif %}
-    </div>
-    <div class="clearfix">
-      {% if page.profile_content %}
-        {% capture profile_content %}{% include_relative {{ page.profile_content }} %}{% endcapture %}
-        {{ profile_content | markdownify }}
+  <div class="profile float-{% if page.profile_align == 'left' %}left{% else %}right{% endif %}">
+    {% if page.profile_image %}
+      {% assign profile_image_path = page.profile_image | prepend: 'assets/img/' %}
+      {% if page.profile_image_circular %}
+        {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
       {% else %}
-        {{ content }}
+        {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
       {% endif %}
-    </div>
-<hr>
-
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.people | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
+      {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+      {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile_image %}
+    {% endif %}
+    {% if page.profile_more_info %}
+      <div class="more-info">{{ page.profile_more_info }}</div>
+    {% endif %}
   </div>
+  <div class="clearfix">
+    {% if page.profile_content %}
+      {% capture profile_content %}{% include_relative {{ page.profile_content }} %}{% endcapture %}
+      {{ profile_content | markdownify }}
+    {% else %}
+      {{ content }}
+    {% endif %}
+  </div>
+  <hr>
+  {% if site.enable_project_categories and page.display_categories %}
+    <!-- Display categorized projects -->
+    {% for category in page.display_categories %}
+      <a id="{{ category }}" href=".#{{ category }}">
+        <h2 class="category">{{ category }}</h2>
+      </a>
+      {% assign categorized_projects = site.people | where: "category", category %}
+      {% assign sorted_projects = categorized_projects | sort: "importance" %}
+      <!-- Generate cards for each project -->
+      {% if page.horizontal %}
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-2">
+        {% for project in sorted_projects %}
+          {% include projects_horizontal.liquid %}
+        {% endfor %}
+        </div>
+      </div>
+      {% else %}
+      <div class="row row-cols-1 row-cols-md-3">
+        {% for project in sorted_projects %}
+          {% include projects.liquid %}
+        {% endfor %}
+      </div>
+      {% endif %}
+    {% endfor %}
   {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
+  <!-- Display projects without categories -->
+  {% assign sorted_projects = site.people | sort: "importance" %}
+    <!-- Generate cards for each project -->
 
-{% else %}
-
-<!-- Display projects without categories -->
-
-{% assign sorted_projects = site.people | sort: "importance" %}
-
-  <!-- Generate cards for each project -->
-
-{% if page.horizontal %}
-
+  {% if page.horizontal %}
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2">
     {% for project in sorted_projects %}

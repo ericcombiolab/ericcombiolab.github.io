@@ -9,12 +9,16 @@ display_categories: [Postdoc, Ph.D. Student, RA, Alumni]
 horizontal: false
 profile_align: right
 profile_image: prof_zhang.png
+profile_image_circular: false
 profile_content: about_ericluzhang.md    
 ---
 
 <!-- pages/people.md -->
 
 <div >
+  <a id="PI" href=".#PI">
+    <h2 class="category">PI</h2>
+  </a>
   <div class="profile float-{% if page.profile_align == 'left' %}left{% else %}right{% endif %}">
     {% if page.profile_image %}
       {% assign profile_image_path = page.profile_image | prepend: 'assets/img/' %}

@@ -7,10 +7,10 @@ nav: true
 nav_order: 3
 display_categories: [Postdoc, Ph.D. Student, RA, Alumni]
 horizontal: false
-profiles_align: right
-profiles_image: prof_zhang.png
-profiles_content: about_ericluzhang.md
-profiles_more_info: >
+profile_align: right
+profile_image: prof_zhang.png
+profile_content: about_ericluzhang.md
+profile_more_info: >
     Address: Department of Computer Science, DLB 629, Level 6, David C. Lam Building Shaw Campus, 
             Hong Kong Baptist University Kowloon Tong, Hong Kong
     Tel: 852-3411-5880    Email: ericluzhang at hkbu.edu.hk
@@ -38,8 +38,6 @@ profiles_more_info: >
     {% if page.profile_content %}
       {% capture profile_content %}{% include_relative {{ page.profile_content }} %}{% endcapture %}
       {{ profile_content | markdownify }}
-    {% else %}
-      {{ content }}
     {% endif %}
   </div>
   <hr>

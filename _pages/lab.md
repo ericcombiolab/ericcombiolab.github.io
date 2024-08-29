@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 permalink: /labpics/
 title: Lab Pics
 description: 

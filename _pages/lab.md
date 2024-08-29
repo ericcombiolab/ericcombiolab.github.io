@@ -21,7 +21,7 @@ nav_order: 8
     </div>
 </div>
 <div class="caption">
-  A birthday lunch for members whose birthday is between June and August!
+  August 2024. A birthday lunch for members whose birthday are between June and August!
 </div>
 
 <div class="row mt-3">
@@ -36,7 +36,7 @@ nav_order: 8
     </div>
 </div>
 <div class="caption">
-    Farewell & Birthday Party in April 2024. Wishing our first PhD graduate, Zhenmiao, all the best on his new journey at UCSD and celebrating birthdays for Zeming and Xiaofeng together! 🎉🎓🎂 
+   April 2024. A Farewell & Birthday Party. Wishing our first PhD graduate, Zhenmiao, all the best on his new journey at UCSD and celebrating birthdays for Zeming and Xiaofeng together! 🎉🎓🎂 
 </div>
 
 ## 2023

@@ -9,11 +9,7 @@ display_categories: [Postdoc, Ph.D. Student, RA, Alumni]
 horizontal: false
 profile_align: right
 profile_image: prof_zhang.png
-profile_content: about_ericluzhang.md
-profile_more_info: >
-    Address: Department of Computer Science, DLB 629, Level 6, David C. Lam Building Shaw Campus, 
-            Hong Kong Baptist University Kowloon Tong, Hong Kong
-    Tel: 852-3411-5880    Email: ericluzhang at hkbu.edu.hk
+profile_content: about_ericluzhang.md    
 ---
 
 <!-- pages/people.md -->
@@ -28,10 +24,7 @@ profile_more_info: >
         {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
       {% endif %}
       {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
-      {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile_image %}
-    {% endif %}
-    {% if page.profile_more_info %}
-      <div class="more-info">{{ page.profile_more_info }}</div>
+      {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes %}
     {% endif %}
   </div>
   <div class="clearfix">
@@ -40,7 +33,9 @@ profile_more_info: >
       {{ profile_content | markdownify }}
     {% endif %}
   </div>
+  </div>
   <hr>
+  <div class="projects">
   {% if site.enable_project_categories and page.display_categories %}
     <!-- Display categorized projects -->
     {% for category in page.display_categories %}

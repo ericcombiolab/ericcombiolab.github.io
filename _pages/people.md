@@ -29,7 +29,7 @@ profile_cv_pdf: Dr_ZhangLu_C.V.pdf
         {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
       {% endif %}
       {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
-      {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes %}
+      {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes  zoomable=true %}
     {% endif %}
   </div>
   <div class="clearfix">

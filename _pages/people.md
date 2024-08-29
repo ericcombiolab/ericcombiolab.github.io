@@ -37,7 +37,6 @@ profile_cv_pdf: Dr_ZhangLu_C.V.pdf
       {% capture profile_content %}{% include_relative {{ page.profile_content }} %}{% endcapture %}
       {{ profile_content | markdownify }}
     {% endif %}
-  Full CV : <a href="assets/pdf/Dr_ZhangLu_C.V.pdf" target="_blank" rel="noopener noreferrer"> <i class="fa-solid fa-file-pdf"></i></a> </div>
 
   </div>
   

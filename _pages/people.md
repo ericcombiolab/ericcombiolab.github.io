@@ -19,36 +19,31 @@ profiles_more_info: >
 <!-- pages/people.md -->
 
 <div >
-<hr>
-    <div class="profile float-{% if profile_align == 'left' %}left{% else %}right{% endif %}">
-      {% if profile_image %}
-        {% assign profile_image_path = profile_image | prepend: 'assets/img/' %}
-        {% if profile_image_circular %}
+    <div class="profile float-{% if page.profile_align == 'left' %}left{% else %}right{% endif %}">
+      {% if pa geprofile_image %}
+        {% assign profile_image_path = page.profile_image | prepend: 'assets/img/' %}
+        {% if page.profile_image_circular %}
           {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
         {% else %}
           {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
         {% endif %}
         {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
-        {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile_image %}
+        {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile_image %}
       {% endif %}
-      {% if profile_more_info %}
-        <div class="more-info">{{ profile_more_info }}</div>
+      {% if page.profile_more_info %}
+        <div class="more-info">{{ page.profile_more_info }}</div>
       {% endif %}
     </div>
-
     <div class="clearfix">
-      {% if profile_content %}
-        {% capture profile_content %}{% include_relative {{ profile_content }} %}{% endcapture %}
+      {% if page.profile_content %}
+        {% capture profile_content %}{% include_relative {{ page.profile_content }} %}{% endcapture %}
         {{ profile_content | markdownify }}
       {% else %}
         {{ content }}
       {% endif %}
     </div>
-  {% endfor %}
-{% endif %}
-</div>
 <hr>
-<div class="people">
+
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {% for category in page.display_categories %}

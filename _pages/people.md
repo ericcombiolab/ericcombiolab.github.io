@@ -15,7 +15,6 @@ profile_cv_pdf: Dr_ZhangLu_C.V.pdf
 ---
 
 <!-- pages/people.md -->
-<article>
 <div class="projects">
   <a id="PI" href=".#PI">
     <h2 class="category">PI</h2>
@@ -25,7 +24,7 @@ profile_cv_pdf: Dr_ZhangLu_C.V.pdf
     target="_blank"
     rel="noopener noreferrer"
     class="float-right"
-    ><h3>Full CV</h3> <i class="fa-solid fa-file-pdf"></i></a>
+    >Full CV: <i class="fa-solid fa-file-pdf"></i></a>
   <div class="profile float-{% if page.profile_align == 'left' %}left{% else %}right{% endif %}">
     {% if page.profile_image %}
       {% assign profile_image_path = page.profile_image | prepend: 'assets/img/' %}
@@ -35,7 +34,7 @@ profile_cv_pdf: Dr_ZhangLu_C.V.pdf
         {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
       {% endif %}
       {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
-      {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes  zoomable=true %}
+      {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class  zoomable=true %}
     {% endif %}
   </div>
   <div class="clearfix">
@@ -47,7 +46,6 @@ profile_cv_pdf: Dr_ZhangLu_C.V.pdf
   </div>
   
   </div>
-</article>
 
   <div class="projects">
   {% if site.enable_project_categories and page.display_categories %}

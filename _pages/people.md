@@ -10,12 +10,13 @@ horizontal: false
 profile_align: right
 profile_image: prof_zhang.png
 profile_image_circular: false
-profile_content: about_ericluzhang.md    
+profile_content: about_ericluzhang.md
+profile_cv_pdf: Dr_ZhangLu_C.V.pdf
 ---
 
 <!-- pages/people.md -->
 
-<div >
+<div class="projects">
   <a id="PI" href=".#PI">
     <h2 class="category">PI</h2>
   </a>
@@ -35,10 +36,18 @@ profile_content: about_ericluzhang.md
     {% if page.profile_content %}
       {% capture profile_content %}{% include_relative {{ page.profile_content }} %}{% endcapture %}
       {{ profile_content | markdownify }}
+      <a
+        href="{{ page.profile_cv_pdf | prepend: 'assets/pdf/' | relative_url}}"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="float-right"
+        ><i class="fa-solid fa-file-pdf"></i
+      ></a>
     {% endif %}
+
   </div>
   </div>
-  <hr>
+
   <div class="projects">
   {% if site.enable_project_categories and page.display_categories %}
     <!-- Display categorized projects -->

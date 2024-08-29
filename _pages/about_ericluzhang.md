@@ -7,3 +7,5 @@
 
 **Email** : ericluzhang at hkbu.edu.hk
 
+**Full CV** :
+<a href="assets/pdf/Dr_ZhangLu_C.V.pdf" target="_blank" rel="noopener noreferrer" > <i class="fa-solid fa-file-pdf"></i></a>

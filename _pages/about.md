@@ -16,6 +16,9 @@ social: true # includes social icons at the bottom of the page
 
 > Led by Dr. Eric Lu Zhang, our group is dedicated to unraveling the mysteries of biology using advanced computational methods and cutting-edge technologies.
 
+> I'm seeking talented and passionate <a href='/openings'>Research Assistants, PhD candidates, and Postdoctoral Fellows</a>.
+If you're interested in collaborating with me, please feel free to contact me with your CV.
+
 ## Research Interests
 Develop assembly algorithms and deep learning models for metagenomic sequencing data analysis
 Develop deep learning models for single-cell sequencing data analysis

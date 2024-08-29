@@ -7,8 +7,9 @@
 
 **Email** : ericluzhang at hkbu.edu.hk
 
-***Full CV:*** <a
-href="{{ page.profile_cv_pdf | prepend: 'assets/pdf/' | relative_url}}"
+***Full CV*** :
+<a
+href="assets/pdf/Dr_ZhangLu_C.V.pdf"
 target="_blank"
 rel="noopener noreferrer"
 class="float-right"

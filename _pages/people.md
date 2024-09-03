@@ -6,7 +6,7 @@ description: Our talented lab members!
 nav: true
 nav_order: 3
 display_categories: [Postdoc, Ph.D. Student, RA, Alumni]
-horizontal: false
+horizontal: true
 profile_align: right
 profile_image: prof_zhang.png
 profile_image_circular: false

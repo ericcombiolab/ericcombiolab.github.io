@@ -11,7 +11,7 @@
           <div class="card-body">
             <h3 class="card-title">{{ project.title }}</h3>
             <p class="card-text">{{ project.description }}</p>
-            <p class=card-text>{{ project.mail }} </p>
+            <p class="card-text">{{ project.mail }} </p>
             <div class="row ml-1 mr-1 p-0">
               {% if project.github %}
                 <div class="github-icon">
@@ -27,8 +27,8 @@
                 </div>
               {% endif %}
               {% if project.homepage %}
-                <div class="homepage">
-                  <div class="icon" data-toggle="tooltip" title="Code Repository">
+                <div>
+                  <div class="icon" data-toggle="tooltip" title="Homepage">
                     <a href="{{ project.homepage }}"><i class="fa-solid fa-house"></i></a>
                   </div>
                 </div>

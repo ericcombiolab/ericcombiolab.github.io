@@ -10,8 +10,13 @@
         <div class="{% if project.img %}col-md-6{% else %}col-md-12{% endif %}">
           <div class="card-body">
             <h3 class="card-title">{{ project.title }}</h3>
-            <p class="card-text">{{ project.description }}</p>
-            <p class="card-text">{{ project.mail }} </p>
+            <p>{{ project.description }}</p>
+            {% if project.mail %}          
+                <span class="icon-text">
+                  <span class="icon"><i class="fa-regular fa-envelope"></i></span>
+                  <span class="text">project.mail</span>
+                </span>
+            {% endif %}
             <div class="row ml-1 mr-1 p-0">
               {% if project.github %}
                 <div class="github-icon">
@@ -26,13 +31,7 @@
                   {% endif %}
                 </div>
               {% endif %}
-              {% if project.homepage %}
-                <div>
-                  <div class="icon" data-toggle="tooltip" title="Homepage">
-                    <a href="{{ project.homepage }}"><i class="fa-solid fa-house"></i></a>
-                  </div>
-                </div>
-              {% endif %}
+              
             </div>
           </div>
         </div>
@@ -40,3 +39,14 @@
     </div>
   </a>
 </div>
+
+<style>
+  .icon-text {
+    white-space: nowrap;
+    display: inline-flex;
+    align-items: center;
+  }
+  .icon {
+    margin-right: 5px;
+  }
+</style>

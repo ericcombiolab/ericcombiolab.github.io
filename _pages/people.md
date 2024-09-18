@@ -37,9 +37,8 @@ profile_cv_pdf: Dr_ZhangLu_C.V.pdf
       {% capture profile_content %}{% include_relative {{ page.profile_content }} %}{% endcapture %}
       {{ profile_content | markdownify }}
     {% endif %}
-
   </div>
-  
+</div>  
 
   <div class="projects">
   {% if site.enable_project_categories and page.display_categories %}

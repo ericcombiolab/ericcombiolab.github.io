@@ -36,3 +36,5 @@ Senior Research Assistant
 ## Publications 
 Xu, Y., Chen, J., Lyu, A., Cheung, W.K. and Zhang, L., 2022. dynDeepDRIM: a dynamic deep learning model to infer direct regulatory interactions using time-course single-cell gene expression data. Briefings in Bioinformatics, 23(6), p.bbac424. (IF:13.9)
 Xu, Y., Wang, C., Li, Z., Cai, Y., Young, O., Lyu, A. and Zhang, L., 2022, December. A machine learning model for disease risk prediction by integrating genetic and non-genetic factors. In 2022 IEEE International Conference on Bioinformatics and Biomedicine (BIBM) (pp. 868-871). IEEE Computer Society. 
+
+---

@@ -12,13 +12,15 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-> Led by Dr. Eric Lu Zhang, our group is dedicated to unraveling the mysteries of biology using advanced computational methods and cutting-edge technologies.
+> Our group is dedicated to unraveling the mysteries of genomics and biological systems using advanced algorithms, machine learning models and cutting-edge biotechnologies. We are also interested in how the advanced computational techniques and big data revolutionize healthcare decision-making, such as in evidence-based medicine and early disease detection. 
 
 ### Hiring 
-> I'm seeking talented and passionate <a href='/openings'>Research Assistants, PhD candidates, and Postdoctoral Fellows</a>.
+> I'm seeking talented and passionate <a href='/openings'>Research Assistant Professors, Postdoctoral Fellows, PhD students and Research Assistants</a>.
 
 ## Research Interests
 Develop assembly algorithms and deep learning models for metagenomic sequencing data analysis
+
+Foundation models
 
 Develop deep learning models for single-cell sequencing data analysis
 

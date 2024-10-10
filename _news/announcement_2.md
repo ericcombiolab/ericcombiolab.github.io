@@ -1,9 +1,9 @@
 ---
 layout: post
-date: 2024-10-10 16:11:00-0400
+date: 2024-05-31 16:11:00-0400
 inline: false
 related_posts: false
-title: Deepurify got accepted by Nature Machine Intelligence!
+title: Pangaea got published on Nature Communication!
 ---
 
 Pangaea got published on Nature Communication! 

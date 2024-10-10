@@ -6,7 +6,7 @@ related_posts: false
 title: Deepurify got accepted by Nature Machine Intelligence!
 ---
 
-Deepurify got accepted by Nature Machine Intelligence! :sparkles:
+Deepurify got accepted by Nature Machine Intelligence!
 
 ---
 

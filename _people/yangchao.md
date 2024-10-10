@@ -6,4 +6,6 @@ importance: 2021
 category: Ph.D. Student
 related_publications: true
 img: assets/img/labmempic/yangchao.jpg
+mail: cschaoyang@comp.hkbu.edu.hk
+office: DLB625
 ---

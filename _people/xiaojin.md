@@ -6,5 +6,7 @@ importance: 2023
 category: Ph.D. Student
 related_publications: true
 redirect: https://www.comp.hkbu.edu.hk/~csjxiao/
-
+img: assets/img/labmempic/xiaojin.jpg
+mail: csjxiao@comp.hkbu.edu.hk
+office: DLB645
 ---

@@ -6,15 +6,15 @@ related_posts: false
 title: Deepurify got accepted by Nature Machine Intelligence!
 ---
 
-Deepurify got accepted by Nature Machine Intelligence!
+Pangaea got published on Nature Communication! 
 
 ---
-<a href="https://www.nature.com/articles/s42256-024-00908-5"> https://www.nature.com/articles/s42256-024-00908-5</a>
+<a href="https://www.nature.com/articles/s41467-024-49060-z"> https://www.nature.com/articles/s41467-024-49060-z</a>
 
 #### Abstract
 
-Metagenome-assembled genomes (MAGs) offer valuable insights into the exploration of microbial dark matter using metagenomic sequencing data. However, there is growing concern that contamination in MAGs may substantially affect the results of downstream analysis. Current MAG decontamination tools primarily rely on marker genes and do not fully use the contextual information of genomic sequences. To overcome this limitation, we introduce Deepurify for MAG decontamination. Deepurify uses a multi-modal deep language model with contrastive learning to match microbial genomic sequences with their taxonomic lineages. It allocates contigs within a MAG to a MAG-separated tree and applies a tree traversal algorithm to partition MAGs into sub-MAGs, with the goal of maximizing the number of high- and medium-quality sub-MAGs. Here we show that Deepurify outperformed MDMclearer and MAGpurify on simulated data, CAMI datasets and real-world datasets with varying complexities. Deepurify increased the number of high-quality MAGs by 20.0% in soil, 45.1% in ocean, 45.5% in plants, 33.8% in freshwater and 28.5% in human faecal metagenomic sequencing datasets.
+Although long-read sequencing enables the generation of complete genomes for unculturable microbes, its high cost limits the widespread adoption of long-read sequencing in large-scale metagenomic studies. An alternative method is to assemble short-reads with long-range connectivity, which can be a cost-effective way to generate high-quality microbial genomes. Here, we develop Pangaea, a bioinformatic approach designed to enhance metagenome assembly using short-reads with long-range connectivity. Pangaea leverages connectivity derived from physical barcodes of linked-reads or virtual barcodes by aligning short-reads to long-reads. Pangaea utilizes a deep learning-based read binning algorithm to assemble co-barcoded reads exhibiting similar sequence contexts and abundances, thereby improving the assembly of high- and medium-abundance microbial genomes. Pangaea also leverages a multi-thresholding algorithm strategy to refine assembly for low-abundance microbes. We benchmark Pangaea on linked-reads and a combination of short- and long-reads from simulation data, mock communities and human gut metagenomes. Pangaea achieves significantly higher contig continuity as well as more near-complete metagenome-assembled genomes (NCMAGs) than the existing assemblers. Pangaea also generates three complete and circular NCMAGs on the human gut microbiomes.
 
-#### Code
+#### Code 
 
-<a href="https://github.com/ericcombiolab/Deepurify/">https://github.com/ericcombiolab/Deepurify/ </a>
+<a href="https://github.com/ericcombiolab/Pangaea">https://github.com/ericcombiolab/Pangaea </a>

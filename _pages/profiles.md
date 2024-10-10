@@ -15,6 +15,4 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>+852 3411 5880 </p>
-  - align: left
-    content: about_jin.md
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2024-05-31 16:11:00-0400
+date: 2024-10-09 16:11:00-0400
 inline: false
 related_posts: false
 title: Deepurify got accepted by Nature Machine Intelligence!

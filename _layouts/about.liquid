@@ -38,6 +38,13 @@ layout: default
       </div>
     {% endif %}
 
+    {% if page.background %}
+      {%if page.background.image %}
+        {% assign background_image_path = page.background.image | prepend: 'assets/img/' %}
+        {% capture background_style %}background-image: url('{{ background_image_path }}'){% endcapture %}
+        <div class="background-image" style="{{ background_style }}"></div>
+      {% endif %}
+
     <div class="clearfix">{{ content }}</div>
 
     <!-- News -->

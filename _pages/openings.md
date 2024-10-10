@@ -6,12 +6,11 @@ nav: true
 nav_order: 4
 ---
 
-# Overview
 Hong Kong Baptist University (HKBU) stands as one of the eight publicly funded universities in HKSAR with a strong focus on research. The university is dedicated to conducting impactful research across various disciplines by leveraging our strategic strengths and diverse talents. In our pursuit of advancing research and promoting innovation, we have implemented a range of initiatives. These initiatives encompass enhancing international exposure, seeking international scholarly recognition, fostering an inclusive and supportive research culture, promoting multidisciplinary collaboration, and attracting and retaining exceptional faculty. In the 2022 THE World University Impact Rankings, the Department of Computer Science at HKBU achieved significant recognition. It secured the 3rd position in computer science citations in Hong Kong, ranked 22nd among computer science departments in Asia, and attained a global ranking of 126th-150th. Moreover, in the field of artificial intelligence rankings according to CSRankings, HKBU's Computer Science department secured an impressive 3rd place in Hong Kong, 26th in Asia, and 51st worldwide. The Department strongly emphasizes the importance of modern research facilities in facilitating top-tier research and education. Our high-performance computing resources, including FAT CPU, FAT GPU servers, and GPU clusters, are meticulously equipped to bolster our research capabilities. These resources are designed to address the evolving needs of research in artificial intelligence and big data, underscoring our commitment to cutting-edge exploration. 
 
 
 
-# Job Description
+## Job Description
 We would like to recruit 2-3 PhD students, Postdocs and Research Assistant Professor to work on AI in Biomedicine. Our projects aim to develop deep learning models to interpret genomic sequences and spatial trans-omics data.
 
 ### Required Qualifications of PhD students:
@@ -40,5 +39,5 @@ The salary of postdoctoral fellow and Research Assistant Professor will be comme
 
 
 
-# How to Apply
+## How to Apply
 Application submission materials to ericluzhang@hkbu.edu.hk

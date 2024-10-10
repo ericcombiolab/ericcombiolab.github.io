@@ -12,4 +12,4 @@ His recent research interest is AI for Science. His work has been published in s
 **Email** : ericluzhang at hkbu.edu.hk
 
 **Full CV** :
-<a href="{{ assets/pdf/Dr_ZhangLu_C.V.pdf | relative_url}}" target="_blank" rel="noopener noreferrer" > <i class="fa-solid fa-file-pdf"></i></a>
+<a href="{{ /assets/pdf/Dr_ZhangLu_C.V.pdf | relative_url}}" target="_blank" rel="noopener noreferrer" > <i class="fa-solid fa-file-pdf"></i></a>

@@ -5,4 +5,5 @@ description: PhD student (2021 Fall)
 importance: 2021
 category: Ph.D. Student
 related_publications: true
+img: assets/img/labmempic/yangchao.jpg
 ---

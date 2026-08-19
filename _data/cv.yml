@@ -1,0 +1,176 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Lu (Eric) Zhang
+    - name: Position
+      value: Associate Professor (with tenure), Department of Computer Science, Hong Kong Baptist University
+    - name: Address
+      value: DLB 629, Level 6, David C. Lam Building, Shaw Campus, Hong Kong Baptist University, Kowloon Tong, Hong Kong
+    - name: Tel
+      value: (852) 3411-5880
+    - name: Email
+      value: ericluzhang@hkbu.edu.hk
+
+- title: Work Experience
+  type: time_table
+  contents:
+    - title: Associate Professor (with tenure)
+      institution: Hong Kong Baptist University, Hong Kong
+      department: Department of Computer Science
+      year: 2024 - now
+      description:
+        - Early promotion
+    - title: Assistant Professor
+      institution: Hong Kong Baptist University, Hong Kong
+      department: Department of Computer Science
+      year: 2019 - 2024
+    - title: Honorary Research Officer
+      institution: Imperial College London, UK
+      department: Department of Medicine
+      year: 2014 - 2017
+    - title: Research Assistant
+      institution: The University of Hong Kong, Hong Kong
+      department: Department of Paediatrics and Adolescent Medicine
+      year: 2008 - 2010
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Postdoctoral Fellow
+      institution: Stanford University, USA
+      department: Department of Computer Science and Department of Pathology
+      year: 2016 - 2019
+      description:
+        - "Supervisors: Prof. Serafim Batzoglou and Prof. Arend Sidow"
+    - title: Postdoctoral Scholar
+      institution: City University of Hong Kong, Hong Kong
+      department: Department of Computer Science
+      year: 2016
+      description:
+        - "Supervisor: Prof. Shuaicheng Li"
+    - title: Visiting PhD Student
+      institution: UC Berkeley, USA
+      department: Department of Mathematics
+      year: 2015
+      description:
+        - "Supervisor: Prof. Stephen Smale"
+    - title: PhD in Computer Science
+      institution: City University of Hong Kong, Hong Kong
+      department: Department of Computer Science
+      year: 2012 - 2016
+      description:
+        - "Supervisor: Prof. Shuaicheng Li"
+    - title: MPhil in Bioinformatics
+      institution: The University of Hong Kong, Hong Kong
+      department: Department of Paediatrics and Adolescent Medicine
+      year: 2010 - 2012
+      description:
+        - "Supervisor: Prof. Wanling Yang"
+    - title: BEng in Software Engineering
+      institution: Tianjin University, Tianjin, China
+      department: School of Software Engineering
+      year: 2004 - 2008
+
+- title: Research Interests
+  type: list
+  contents:
+    - Multi-agent systems for biomedical research
+    - Deep learning models for single-cell sequencing and spatial multi-omics data analysis
+    - AI for genomics, microbiology and metabolomics
+    - AI for Traditional Chinese Medicine
+
+- title: Awards and Honors
+  type: time_table
+  contents:
+    - year: 2025
+      items:
+        - Best Research Award, Department of Computer Science, Hong Kong Baptist University
+    - year: 2024
+      items:
+        - Excellent Paper Award, Faculty of Science, Hong Kong Baptist University
+    - year: 2023
+      items:
+        - President's Award for Outstanding Performance as Early Career Researcher, Hong Kong Baptist University
+    - year: 2022
+      items:
+        - Best Teaching Award, Department of Computer Science, Hong Kong Baptist University
+    - year: 2015
+      items:
+        - Travel Grants for Exchange Activities of Research Students, City University of Hong Kong
+    - year: 2012 - 2015
+      items:
+        - University Postgraduate Fellowship, City University of Hong Kong
+    - year: 2012
+      items:
+        - Best Practice Award, Bio-IT World
+    - year: 2010 - 2012
+      items:
+        - University Postgraduate Fellowship, The University of Hong Kong
+    - year: 2007
+      items:
+        - Second Roll, Imagine Cup
+    - year: 2003
+      items:
+        - First-class Prize, China Adolescents Science and Technology Innovation Competition
+    - year: 1998
+      items:
+        - First-class Prize, China Adolescents Science and Technology Innovation Competition
+
+- title: Departmental and University Service
+  type: list
+  contents:
+    - Associate Program Director of BSc (Hons) in Computer Science (2025 - now)
+    - Department UoA coordinator of Research Assessment Exercise 2026
+    - Program management committee member of BSc (Hons) in Computer Science (2022 - now)
+    - Program management committee member of MSc in Data Analytics and Artificial Intelligence (2022 - now)
+    - Program management committee member of MSc in Information Technology Management (2022 - now)
+    - Program management committee member of BSc (Hons) in Innovation in Health/Well Being (2022 - 2024)
+    - Department Coordinator of Computer Facility (2023 - 2025)
+
+- title: Conference Organization and Committees
+  type: nested_list
+  contents:
+    - title: Organization Chair
+      items:
+        - "\"Algorithmic Advances for Single-Cell and Spatial Omics Data Analysis\" workshop, BIBM 2026"
+        - "\"Algorithmic Advances for Single-Cell and Spatial Omics Data Analysis\" workshop, BIBM 2025"
+        - "\"Computational methods to characterize genomic variants using high-throughput sequencing data\" workshop, BIBM 2022"
+        - "\"Computational methods and their applications on single cell multiomic data\" workshop, BIBM 2021"
+        - Organization committee member, 2019 International Symposium on Digital Health
+    - title: Area Chair and Reviewer
+      items:
+        - Area Chair, ACM-BCB 2025
+        - NeurIPS workshop reviewer (2025, 2026)
+    - title: Program Committee Member
+      items:
+        - BIBM (2020 - 2026), ISBRA (2020 - 2026), GIW (2023, 2025, 2026)
+        - IJCAI (2020, 2021), ICHI (2020, 2021), BDAI 2020
+        - ICBBS 2024, ISDH 2019, ICBPB 2019
+    - title: Working Groups
+      items:
+        - AI leader and co-founder of ADVANCED (AI-empowered DeVelopment and AssessmeNt of medical guidElines and stanDards) working group
+        - Member of international RIGHT (Reporting Items for Practice Guidelines in HealThcare) working group
+        - Member of PREPARE (Practice Guideline Registration and Transparency) platform working group
+        - Member of STAR (Scientific, Transparent and Applicable Rankings tool) working group
+
+- title: Editorial Roles
+  type: list
+  contents:
+    - Editor-in-Chief, AI Evidence-Based Medicine
+    - Editorial Board Member, BMC Methods
+    - Editorial Board Member, Current Gene Therapy
+    - Guest Editor, Life, Advances in Computational Genomics, 2022
+    - Guest Editor, Health Information Science and Systems, Integrative Multi-omics for Human Health and Disease Studies, 2022
+    - Guest Editor, Frontiers in Genetics, Predicting High-Risk Individuals for Common Diseases Using Multi-Omics and Epidemiological Data II, 2022
+    - Guest Editor, Frontiers in Molecular Biosciences, Computational Solutions for Microbiome and Metagenomics Sequencing Analyses II, 2021
+    - Guest Editor, Frontiers in Molecular Biosciences, Computational Solutions for Microbiome and Metagenomics Sequencing Analyses I, 2020
+    - Guest Editor, Frontiers in Genetics, Predicting High-Risk Individuals for Common Diseases Using Multi-Omics and Epidemiological Data I, 2019
+
+- title: Journal Reviewer
+  type: list
+  contents:
+    - Nature Methods, Nature Communications, Genome Biology, Genome Research, Genome Medicine, National Science Review
+    - Genomics Proteomics & Bioinformatics, GigaScience, Bioinformatics, Briefings in Bioinformatics, iScience
+    - npj Precision Oncology, IEEE/ACM Transactions on Computational Biology and Bioinformatics, Frontiers in Genetics
+    - Knowledge-Based Systems, Aging, Computational Biology and Chemistry, and others

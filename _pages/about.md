@@ -20,14 +20,16 @@ social: true # includes social icons at the bottom of the page
 > I'm seeking talented and passionate <a href='/openings'>Research Assistant Professors, Postdoctoral Fellows, PhD Students and Research Assistants</a>.
 
 ## Research Interests
-Computational Genomics
+Multi-Agent Systems for Biomedical Research
 
 AI for Science
 
-Deep learning in Genomics
+Deep Learning for Single-Cell and Spatial Multi-Omics Data
 
-Single-Cell Multiomics Sequencing
+AI for Genomics, Microbiology and Metabolomics
 
 Large Language Models for Healthcare and Scientific Research
+
+AI for Traditional Chinese Medicine
 
 

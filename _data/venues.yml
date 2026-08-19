@@ -1,9 +1,18 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+# Colours for the publication type badges shown next to each paper.
+# Any abbr not listed here falls back to the site theme colour, which is what
+# the named software/model badges (Pangaea, stDyer, SpaMV, ...) use.
 
-"PhysRev":
-  url: https://journals.aps.org/
+"data analysis":
+  color: "#0f7b6c"
 
-"Vision":
-  color: "#009f36"
+"benchmark":
+  color: "#b06000"
+
+"review":
+  color: "#6b4fa8"
+
+"method":
+  color: "#1256a3"
+
+"perspective":
+  color: "#9b2c5e"

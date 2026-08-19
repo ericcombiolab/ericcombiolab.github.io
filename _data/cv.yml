@@ -75,9 +75,11 @@
 - title: Research Interests
   type: list
   contents:
-    - Multi-agent systems for biomedical research
-    - Deep learning models for single-cell sequencing and spatial multi-omics data analysis
-    - AI for genomics, microbiology and metabolomics
+    - Multi-Agent Systems for Biomedical Research
+    - AI for Science
+    - Deep Learning for Single-Cell and Spatial Multi-Omics Data
+    - AI for Genomics, Microbiology and Metabolomics
+    - Large Language Models for Healthcare and Scientific Research
     - AI for Traditional Chinese Medicine
 
 - title: Awards and Honors

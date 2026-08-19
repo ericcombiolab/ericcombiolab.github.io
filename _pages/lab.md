@@ -7,6 +7,28 @@ nav: true
 nav_order: 8
 ---
 
+## 2026
+<hr>
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/lab_pic/2026-07-31_cuhksz_teambuilding.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+  July 2026. A joint team building with Prof. Yongfei Wang's group from The Chinese University of Hong Kong, Shenzhen.
+</div>
+
+## 2025
+<hr>
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/lab_pic/2025-09-10_farewell.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+  September 2025. A farewell to Mao Guo and a celebration of Xu Ke's graduation! 🎓
+</div>
+
 ## 2024
 <hr>
 <div class="row mt-3">

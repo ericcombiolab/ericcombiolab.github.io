@@ -8,7 +8,7 @@ nav_order: 8
 
 - Empowering Traditional Medicine with Modern Technology: Application and Research of Large Language Models in TCM Education. Chinese Medicine Development Fund (PI, 1,994,080HKD, Approved in principle).
 
-- Biomedical AI Agent for Traditional Chinese Medicine Treatment of Gastrointestinal Cancer: Research on Microbiome-Host Interaction Mechanisms. Guangdong and Hong Kong Universities "1+1+1" Joint Research Collaboration Scheme (PI, 1,500,000HKD).
+- Biomedical AI Agent for Traditional Chinese Medicine Treatment of Gastrointestinal Cancer: Research on Microbiome-Host Interaction Mechanisms. Guangdong and Hong Kong Universities "1+1+1" Joint Research Collaboration Scheme (PI, 1,500,000HKD, from 2026.7).
 
 - Enhancing Small Molecule Drug Synergy Prediction Using Multi-Modality and Multi-source Data. RCMS/24-25/03, the Research Cluster Matching Scheme (PI, 1,000,000HKD, Internal grant, 2025.9-2027.8).
 

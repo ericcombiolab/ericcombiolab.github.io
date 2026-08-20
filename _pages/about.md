@@ -14,6 +14,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
+<img class="lab-logo-hero" src="{{ '/assets/img/lab_logo.png' | relative_url }}" alt="EricComBio Lab logo">
+
 >Our group is dedicated to unraveling the mysteries of genomics and biological systems using advanced computer algorithms, artificial intelligence and cutting-edge biotechnologies. We are also interested in how advanced computational techniques and big data revolutionize healthcare decision-making, such as in evidence-based medicine and early disease detection. 
 
 ### Hiring 

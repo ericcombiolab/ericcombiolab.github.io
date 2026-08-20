@@ -1134,3 +1134,29 @@ ninja-keys::part(ninja-input) {
 ninja-keys::part(ninja-input-wrapper) {
   background: var(--global-bg-color);
 }
+
+
+// Lab logo -----------------------------------------------------------------
+// The mark is dark navy on transparent, so it disappears against the dark
+// theme; lift its brightness there instead of shipping a second image.
+.navbar-logo {
+  height: 34px;
+  width: auto;
+  margin-right: 0.6rem;
+  vertical-align: -0.55rem;
+}
+
+.lab-logo-hero {
+  display: block;
+  max-width: 320px;
+  width: 60%;
+  height: auto;
+  margin: 0 auto 1.5rem;
+}
+
+html[data-theme="dark"] {
+  .navbar-logo,
+  .lab-logo-hero {
+    filter: brightness(1.9) saturate(1.15);
+  }
+}

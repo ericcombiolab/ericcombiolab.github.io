@@ -1140,18 +1140,18 @@ ninja-keys::part(ninja-input-wrapper) {
 // The mark is dark navy on transparent, so it disappears against the dark
 // theme; lift its brightness there instead of shipping a second image.
 .navbar-logo {
-  height: 34px;
+  height: 26px;
   width: auto;
-  margin-right: 0.6rem;
-  vertical-align: -0.55rem;
+  margin-right: 0.5rem;
+  vertical-align: -0.45rem;
 }
 
 .lab-logo-hero {
   display: block;
-  max-width: 320px;
-  width: 60%;
+  max-width: 170px;
+  width: 100%;
   height: auto;
-  margin: 0 auto 1.5rem;
+  margin: 0 0 1.2rem;
 }
 
 html[data-theme="dark"] {

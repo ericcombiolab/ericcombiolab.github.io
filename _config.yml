@@ -180,7 +180,7 @@ collections:
     output: false
     permalink: /projects/:path/
   people:
-    output: false
+    output: true
     permalink: /people/:path/
 
 announcements:

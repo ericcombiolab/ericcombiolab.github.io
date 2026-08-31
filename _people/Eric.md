@@ -1,4 +1,5 @@
 ---
+layout: page
 title: Lu Eric Zhang (张璐)
 description: 
 importance: 1

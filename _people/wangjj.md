@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Wang Jingjing (王晶晶)
-description: PhD student (2020 Fall)
-importance: 2020
-category: Ph.D. Student
+description: Postdoc (2026)
+importance: 2026
+category: Postdoc
 related_publications: true
 img: assets/img/labmempic/wangjingjing.jpg
 mail: csjjwang@comp.hkbu.edu.hk

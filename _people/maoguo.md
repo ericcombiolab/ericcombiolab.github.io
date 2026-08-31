@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Mao Guo (毛果)
-description: Postdoc (2023)
+description: Postdoc (2023-2025)
 importance: 2023
-category: Postdoc
+category: Alumni
 related_publications: true
 ---

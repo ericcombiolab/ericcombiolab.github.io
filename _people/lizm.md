@@ -5,4 +5,5 @@ description: PhD student (2024 Fall)
 importance: 2024
 category: Ph.D. Student
 related_publications: true
+redirect: https://zeming-li-andy.github.io/
 ---

@@ -5,7 +5,7 @@ permalink: /people/
 description: Our talented lab members!
 nav: true
 nav_order: 3
-display_categories: [Postdoc, Ph.D. Student, MPhil Student, RA, Alumni]
+display_categories: [Postdoc, Ph.D. Student, MPhil Student, Alumni]
 horizontal: false
 profile_align: right
 profile_image: prof_zhang.png

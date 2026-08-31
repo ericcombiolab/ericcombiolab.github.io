@@ -6,7 +6,7 @@ importance: 2026
 category: Postdoc
 related_publications: true
 mail: csbhzou@comp.hkbu.edu.hk
-office: DLB625
+office: RRS631C
 ---
 
 My research sits at the intersection of AI and the life sciences, developing deep

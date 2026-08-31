@@ -6,7 +6,7 @@ importance: 2026
 category: MPhil Student
 related_publications: true
 mail: 25482815@life.hkbu.edu.hk
-office: RRS 731a
+office: RRS731a
 ---
 
 ## Education

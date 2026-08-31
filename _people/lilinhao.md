@@ -7,7 +7,7 @@ category: Ph.D. Student
 related_publications: true
 img: assets/img/labmempic/lilinhao.jpg
 mail: linhaoli@life.hkbu.edu.hk
-office: RRS 631C
+office: RRS631C
 ---
 
 ## Education

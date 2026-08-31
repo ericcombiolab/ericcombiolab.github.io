@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Xu Yucheng
+title: Xu Yucheng (徐雨程)
 description: PhD student (2025 Fall)
 importance: 2025
 category: Ph.D. Student

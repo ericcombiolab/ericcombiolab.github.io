@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Li Pan
+title: Li Pan (李攀)
 description: PhD student (2026 Fall)
 importance: 2026
 category: Ph.D. Student

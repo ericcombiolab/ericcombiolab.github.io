@@ -8,7 +8,5 @@ category: Alumni
 related_publications: true
 ---
 
-website: <a href="https://scholar.google.com/citations?user=oOSSMUYAAAAJ&hl=en" >Google Scholar</a>
-
 ## Links
 - [Google Scholar](https://scholar.google.com/citations?user=oOSSMUYAAAAJ&hl=en)

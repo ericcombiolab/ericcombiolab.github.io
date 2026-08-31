@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Li Linhao
+title: Li Linhao (李林豪)
 description: PhD student (2026 Fall)
 importance: 2026
 category: Ph.D. Student

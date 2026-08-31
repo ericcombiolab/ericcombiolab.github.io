@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tao Rong
+title: Tao Rong (陶镕)
 description: MPhil student (2026 Spring)
 importance: 2026
 category: MPhil Student

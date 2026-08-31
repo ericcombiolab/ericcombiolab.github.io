@@ -6,8 +6,6 @@ importance: 2023
 category: Alumni
 related_publications: true
 img: assets/img/labmempic/liuyang.jpg
-mail: yangliu1214@hkbu.edu.hk
-office: RRS631C
 ---
 
 ## Links

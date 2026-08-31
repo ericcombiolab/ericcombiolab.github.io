@@ -8,8 +8,10 @@ github: https://guangyaoguo.github.io/
 related_publications: true
 img: assets/img/labmempic/guangyao.jpg
 mail: csgyguo@comp.hkbu.edu.hk
-redirect: https://guangyaoguo.github.io/
 office: RRS631C
 ---
 
 Research Interests: 
+
+## Links
+- [Personal website](https://guangyaoguo.github.io/)

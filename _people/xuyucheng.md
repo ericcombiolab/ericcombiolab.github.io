@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Xu Yucheng
-description: PhD student (2024 Fall)
-importance: 2024
+description: PhD student (2025 Fall)
+importance: 2025
 category: Ph.D. Student
 related_publications: true
 img: assets/img/labmempic/xuyucheng.jpg

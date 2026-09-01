@@ -5,6 +5,7 @@ description: PhD student (2025 Fall)
 importance: 2025
 category: Ph.D. Student
 related_publications: true
+education: BEng, Beihang University
 img: assets/img/labmempic/xuyucheng.jpg
 mail: csycxu@comp.hkbu.edu.hk
 office: DLB625d

@@ -5,6 +5,7 @@ description: Postdoc (2026), PhD (2021-2026)
 importance: 2026
 category: Postdoc
 related_publications: true
+education: MSc, University of California, Davis
 mail: csbhzou@comp.hkbu.edu.hk
 office: RRS631C
 ---

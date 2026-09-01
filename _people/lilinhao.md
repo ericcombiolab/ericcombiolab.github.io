@@ -5,6 +5,7 @@ description: PhD student (2026 Fall)
 importance: 2026
 category: Ph.D. Student
 related_publications: true
+education: BE, Chongqing University
 img: assets/img/labmempic/lilinhao.jpg
 mail: linhaoli@life.hkbu.edu.hk
 office: RRS631C

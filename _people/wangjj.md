@@ -5,6 +5,7 @@ description: Postdoc (2026), PhD (2020-2026)
 importance: 2026
 category: Postdoc
 related_publications: true
+education: MS, Beijing Jiaotong University
 img: assets/img/labmempic/wangjingjing.jpg
 mail: csjjwang@comp.hkbu.edu.hk
 office: RRS631C

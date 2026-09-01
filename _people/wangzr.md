@@ -6,6 +6,6 @@ importance: 2023
 category: Ph.D. Student
 related_publications: true
 img: assets/img/labmempic/wangzirui.jpg
-mail: yangliu1214@hkbu.edu.hk
-office: RRS631C
+mail: cszrwang@comp.hkbu.edu.hk
+office: DLB625
 ---

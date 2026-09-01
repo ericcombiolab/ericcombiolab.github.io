@@ -6,6 +6,6 @@ importance: 2022
 category: Ph.D. Student
 related_publications: true
 img: assets/img/labmempic/wangchonghao.jpg
-mail: yangliu1214@hkbu.edu.hk
-office: RRS631C
+mail: cschwang@comp.hkbu.edu.hk
+office: DLB625
 ---

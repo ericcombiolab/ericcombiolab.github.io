@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex">
+    <title>Redirecting to {{ page.redirect }}</title>
+    <link rel="canonical" href="{{ page.redirect }}">
+    <meta http-equiv="refresh" content="0; url={{ page.redirect }}">
+  </head>
+  <body>
+    <p>Redirecting to <a href="{{ page.redirect }}">{{ page.redirect }}</a>.</p>
+  </body>
+</html>

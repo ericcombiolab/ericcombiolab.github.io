@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Zou Bohao (邹博皓)
-description: Postdoc (2026)
+description: Postdoc (2026), PhD (2021-2026)
 importance: 2026
 category: Postdoc
 related_publications: true

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Wang Jingjing (王晶晶)
-description: Postdoc (2026)
+description: Postdoc (2026), PhD (2020-2026)
 importance: 2026
 category: Postdoc
 related_publications: true
@@ -12,8 +12,8 @@ office: RRS631C
 
 ## Education
 Hong Kong Baptist University
-Sep 2020 - Present
-Ph.D. student in Computer Science
+Sep 2020 - 2026
+Ph.D. in Computer Science
 
 Beijing Jiaotong University
 Sep 2017 - June 2020

@@ -5,4 +5,5 @@ description: PhD student （ Co-supervised with Prof. Lv)
 importance: 2023
 category: Ph.D. Student
 related_publications: true
+img: assets/img/labmempic/yexiaofeng.jpg
 ---

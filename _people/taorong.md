@@ -5,6 +5,7 @@ description: MPhil student (2026 Spring)
 importance: 2026
 category: MPhil Student
 related_publications: true
+img: assets/img/labmempic/taorong.jpg
 education: MSc, The University of Hong Kong
 mail: 25482815@life.hkbu.edu.hk
 office: RRS731a

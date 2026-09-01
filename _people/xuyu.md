@@ -18,6 +18,9 @@ PhD student (2023 Fall)
 mail: csyuxu@comp.hkbu.edu.hk
 office: DLB625
 
+## Links
+- [Personal website](https://yu-xu.netlify.app/en/)
+
 ## Education Background
 - 09/2023 to - 	          Ph.D. student      Hong Kong Baptist University
 

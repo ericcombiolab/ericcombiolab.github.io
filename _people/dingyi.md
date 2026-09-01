@@ -6,6 +6,7 @@ importance: 2023
 category: Ph.D. Student
 related_publications: true
 mail: dylan1021@comp.hkbu.edu.hk
+office: DLB625
 ---
 
 I am a PhD student at Hong Kong Baptist University, supervised by Professor Lu Zhang.

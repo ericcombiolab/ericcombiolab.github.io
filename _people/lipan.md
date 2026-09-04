@@ -5,6 +5,7 @@ description: PhD student (2026 Fall)
 importance: 2026
 category: Ph.D. Student
 related_publications: true
+education: BSc, Beijing Normal University (2026)
 img: assets/img/labmempic/lipan.jpg
 ---
 

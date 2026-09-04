@@ -6,7 +6,7 @@ importance: 2026
 category: MPhil Student
 related_publications: true
 img: assets/img/labmempic/taorong.jpg
-education: MSc, The University of Hong Kong
+education: MSc, The University of Hong Kong; BSc, Shanghai University
 mail: 25482815@life.hkbu.edu.hk
 office: RRS731a
 ---

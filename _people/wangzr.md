@@ -5,6 +5,7 @@ description: PhD student (2023 Fall)
 importance: 2023
 category: Ph.D. Student
 related_publications: true
+education: MSc, CUHK; BEng, Beihang University
 img: assets/img/labmempic/wangzirui.jpg
 mail: cszrwang@comp.hkbu.edu.hk
 office: DLB625

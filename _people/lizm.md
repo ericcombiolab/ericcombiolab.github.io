@@ -5,6 +5,7 @@ description: PhD student (2024 Fall)
 importance: 2024
 category: Ph.D. Student
 related_publications: true
+education: MSc, HKBU
 ---
 
 ## Links

@@ -5,7 +5,7 @@ description: PhD student (2023 Fall)
 importance: 2023
 category: Ph.D. Student
 related_publications: true
-education: BEng, Beijing Normal University, Zhuhai
+education: MSc, HKBU; BEng, Beijing Normal University, Zhuhai
 redirect: https://yu-xu.netlify.app/en/
 img: assets/img/labmempic/xuyu.jpg
 mail: csyuxu@comp.hkbu.edu.hk

@@ -5,6 +5,7 @@ description: Postdoc (2026), PhD (2021-2026)
 importance: 2026
 category: Postdoc
 related_publications: true
+img: assets/img/labmempic/zoubh.jpg
 education: MSc, University of California, Davis; BSc, Harbin Medical University
 mail: csbhzou@comp.hkbu.edu.hk
 office: RRS631C

@@ -5,6 +5,7 @@ description: PhD student (2023 Fall)
 importance: 2023
 category: Ph.D. Student
 related_publications: true
+img: assets/img/labmempic/dingyi.jpg
 education: BSc, Jinan University
 mail: dylan1021@comp.hkbu.edu.hk
 office: DLB625

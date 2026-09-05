@@ -45,11 +45,14 @@ office: DLB625
 ---
 ```
 
-Anything you write **below** the closing `---` becomes the body of your own page
-at `/people/<your-id>/` — research interests, education history, links, whatever
-you like. Markdown works.
+Anything you write **below** the closing `---` becomes your own page at
+`/people/<your-id>/` — for example <https://ericcombiolab.github.io/people/wangjj/>.
+The card on the People page links to it. This is the part you have the most
+freedom over; see the template in the next section.
 
-关闭的 `---` **下面**写的内容会成为你个人页面的正文，支持 Markdown。
+关闭的 `---` **下面**写的内容，就是你的个人页面
+（例如 <https://ericcombiolab.github.io/people/wangjj/>），People 页面上的卡片
+点进去就是它。这部分自由度最大，模板见下一节。
 
 ### `category`
 
@@ -77,6 +80,63 @@ education: MSc, CUHK; BEng, Beihang University
   phone photo will be rejected by the size check — resize it to 600 px wide first.
   **竖构图，200 KB 以内。** 卡片按 3:4 裁切，脸在上半部分效果最好。
   手机原图（几 MB）会被检查拦下，先缩到 600 px 宽。
+
+---
+
+## Your own page / 你的个人页面
+
+Copy this below the closing `---` and fill it in. Every section is optional —
+delete what you do not need. Headings use `##`, list items start with `- `.
+
+把下面这段复制到闭合的 `---` 之后再填写。每一节都是可选的，用不到就删掉。
+`##` 是标题，`- ` 开头是列表项。
+
+```markdown
+I am a PhD student at Hong Kong Baptist University, supervised by Prof. Lu Zhang.
+My research focuses on ... (one short paragraph about what you work on)
+
+## Education
+- Ph.D. in Computer Science, Hong Kong Baptist University, 2023 - present
+- M.Sc. in ..., ... University, 2020 - 2023
+- B.Eng. in ..., ... University, 2016 - 2020
+
+## Research Experience
+- **2024 - present: <project name>** — what you built or found, in one or two
+  sentences. Mention the outcome (a paper, a tool, a dataset) if there is one.
+
+## Awards
+- Best Paper Award, <conference>, 2025
+
+## Links
+- [Personal website](https://example.com)
+- [Google Scholar](https://scholar.google.com/citations?user=...)
+- [GitHub](https://github.com/...)
+```
+
+### Publications / 论文列表
+
+`related_publications: true` in the front matter already prints your **lab**
+papers at the bottom of your page, under **References**, pulled from
+`_bibliography/papers.bib`. Do not retype those — if one is missing there, tell
+Eric so it gets added to the bibliography, which fixes the Publications page too.
+
+Papers from **before you joined** are not in that bibliography, so list those
+yourself under a heading that says so, e.g. `## Publications before joining the lab`.
+
+front matter 里的 `related_publications: true` 会自动列出你在**本实验室**的论文，
+显示在页面底部 **References**，数据来自 `_bibliography/papers.bib`。这部分不要
+手写重复——缺了就告诉 Eric 补到文献库，Publications 页面也会一起修好。
+
+**加入实验室之前**的论文不在那个文献库里，需要你自己写，建议用一个说明性的标题，
+例如 `## Publications before joining the lab`。
+
+### Preview before you submit / 提交前预览
+
+In the GitHub editor, the **Preview** tab next to **Edit** renders your Markdown.
+It will not show the site's styling, but it catches broken headings and links.
+
+GitHub 编辑器里 **Edit** 旁边的 **Preview** 标签可以预览 Markdown 渲染效果。
+样式和网站不完全一致，但足以发现标题、链接的格式错误。
 
 ---
 

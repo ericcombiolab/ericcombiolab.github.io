@@ -1,0 +1,31 @@
+name: Member photo size
+
+on:
+  pull_request:
+    paths:
+      - "assets/img/labmempic/**"
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v4
+
+      - name: Reject oversized member photos 🖼️
+        run: |
+          limit=204800   # 200 KB
+          fail=0
+          for f in assets/img/labmempic/*; do
+            [ -f "$f" ] || continue
+            size=$(stat -c%s "$f")
+            if [ "$size" -gt "$limit" ]; then
+              echo "::error file=$f::$(( size / 1024 )) KB exceeds the 200 KB limit — resize to 600px wide before committing (缩到 600px 宽再提交)"
+              fail=1
+            fi
+          done
+          if [ "$fail" -eq 1 ]; then
+            echo "Member photos must stay under 200 KB; the repository is already ~95 MB."
+            exit 1
+          fi
+          echo "All member photos are within the size limit."

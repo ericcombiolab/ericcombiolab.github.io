@@ -6,6 +6,7 @@ importance: 2026
 category: Ph.D. Student
 related_publications: true
 mail: cspanli@comp.hkbu.edu.hk
+office: RRS631C
 education: BSc, Beijing Normal University
 img: assets/img/labmempic/lipan.jpg
 ---

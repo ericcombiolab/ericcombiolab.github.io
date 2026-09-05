@@ -8,7 +8,7 @@ related_publications: true
 education: MSc, Beijing Jiaotong University; BSc, Beijing Information Sci. & Tech. University
 img: assets/img/labmempic/wangjingjing.jpg
 mail: csjjwang@comp.hkbu.edu.hk
-office: RRS631C
+office: DLB625E
 ---
 
 ## Education

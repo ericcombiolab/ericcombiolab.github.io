@@ -1160,3 +1160,25 @@ html[data-theme="dark"] {
     filter: brightness(1.9) saturate(1.15);
   }
 }
+
+
+// Member cards ---------------------------------------------------------------
+// Portraits arrive at whatever ratio their source had, which left the cards
+// starting their text at different heights. Pin one shape and crop to it.
+.projects {
+  .card-img-top {
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+    object-position: center 22%; // faces sit above centre
+  }
+
+  .card-img-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--global-divider-color);
+    color: var(--global-text-color-light);
+    font-size: 3rem;
+  }
+}

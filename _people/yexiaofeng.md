@@ -1,10 +1,12 @@
 ---
 layout: page
 title: Yip Hiu Fung (叶晓峰)
-description: PhD student (Co-supervised with Prof. Aiping Lyu)
-importance: 2023
-category: Ph.D. Student
+description: Postdoc (2026), PhD (2022-2026)
+importance: 2026
+category: Postdoc
 related_publications: true
 education: BSc, HKBU
 img: assets/img/labmempic/yexiaofeng.jpg
 ---
+
+Co-supervised with Prof. Aiping Lyu.

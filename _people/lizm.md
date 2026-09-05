@@ -5,6 +5,8 @@ description: PhD student (2024 Fall)
 importance: 2024
 category: Ph.D. Student
 related_publications: true
+office: RRS631C
+mail: cszmli@comp.hkbu.edu.hk
 img: assets/img/labmempic/lizm.jpg
 education: MSc, HKBU
 ---

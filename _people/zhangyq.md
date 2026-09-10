@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Zhang Yingqiao (Barry)
-description: PhD (2020-2024) and Postdoc, Now AI Engineer at AIFT
+title: Zhang Yingqiao (张英乔 Barry)
+description: PhD (2020-2024), Postdoc (2024-2026) Now AI Engineer at AIFT
 importance: 2020
 category: Alumni
 related_publications: true
@@ -22,4 +22,4 @@ applications in healthcare and finance.
 
 ## Experience
 - AI Engineer (current), AIFT
-- Postdoctoral Fellow, Hong Kong Baptist University
+- Postdoctoral Fellow, Hong Kong Baptist University (2024 - 2026)

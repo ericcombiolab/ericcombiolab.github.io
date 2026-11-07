@@ -33,11 +33,3 @@ AI for Genomics, Microbiology and Metabolomics
 Large Language Models for Healthcare and Scientific Research
 
 AI for Traditional Chinese Medicine
-
-## BioMap Summit 2026
-
-**6 November 2026** · International Bio-Computing Innovation Summit 2026
-
-Prof. Lu Zhang joined the summit as a panelist and, together with BioMap CEO **Wei Liu**, was interviewed by the **South China Morning Post** and **Ming Pao** on **AI for Genomics** and **AI for Traditional Chinese Medicine (TCM)**. [Read more]({{ '/news/biomap-summit-2026/' | relative_url }}).
-
-{% include biomap-summit-2026-gallery.liquid %}

@@ -9,6 +9,13 @@ nav_order: 8
 
 ## 2026
 <hr>
+
+### BioMap Summit — 6 November 2026
+
+Prof. Lu Zhang served as a panelist at BioMap's International Bio-Computing Innovation Summit 2026. He also joined BioMap CEO Wei Liu for interviews with the South China Morning Post and Ming Pao on AI for Genomics and AI for Traditional Chinese Medicine (TCM). [Read more]({{ '/news/biomap-summit-2026/' | relative_url }}).
+
+{% include biomap-summit-2026-gallery.liquid %}
+
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/lab_pic/2026-09-25_mid_autumn.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}

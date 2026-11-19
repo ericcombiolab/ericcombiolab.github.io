@@ -12,6 +12,10 @@ nav_order: 2
 
 <div class="publications">
 
+<h2 class="year" id="preprints">Preprints</h2>
+
+{% bibliography --query @misc %}
+
 <h2 class="year">Journal Articles</h2>
 
 {% bibliography --query @article %}
